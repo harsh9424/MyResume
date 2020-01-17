@@ -1,0 +1,81 @@
+
+.sidebar{
+    width: 15vw;
+    height: 100vh;
+    min-height: 100vh;
+    background-color:  blueviolet;
+    margin-left: -12vw;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all .5s;
+    z-index: 8;
+}
+
+.sidebar > .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.sidebar.open{
+    margin-left: 0vw;
+}
+
+.sidebar > .menu-drawer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.sidebar > .menu-drawer > .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+
+}
+
+.sidebar > .menu-drawer > .icons > i{
+    padding-top: 5px;
+    text-align: right;
+}
+
+.sidebar > .menu-drawer > .icons > i:hover{
+    color: black;
+}
+
+.sidebar > .menu-drawer > .icons> a:hover{
+    color: black;
+    font-size: 21px;
+}
+
+.sidebar > .profile-image{
+    margin-top: 10px;
+    margin-right: 6vh;
+    background-color:lightslategray;
+    height: 18vh;
+    width: 10vw;
+    margin-left: 10px;
+    border-radius: 75px;
+}
+
+.sidebar > .profile-image > img{
+    margin-top: 1px;
+    margin-right: 6vh;
+    background-color:lightslategray;
+    height: 18vh;
+    width: 10vw;
+    margin-left: 0px;
+    border-radius: 75px;
+}
